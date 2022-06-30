@@ -1,0 +1,233 @@
+.syumi-top {
+    padding-top: 90px; /* ヘッダーの後ろに要素が隠れないようにするため */
+}
+
+header {
+    position: fixed; /* ウィンドウを基準に画面に固定 */
+    top: 8px; /* 上下の固定位置を上から0pxにする */
+    border-top: solid 2px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #202124;
+    font-family: serif;
+    color: white;
+    text-align: center;
+    border-left: solid 2px;
+    border-right: solid 2px;
+    border-bottom: solid 2px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    text-align: left;
+    border-bottom: solid 2px;
+    background-color: #202124;
+}
+
+.title {
+    display: inline-block;
+    padding: 10px 30px;
+    margin-left: -20px;
+}
+
+.title h1 {
+    margin-top: -10px;
+    margin-bottom: -10px;
+    font-size: 30px;
+}
+
+.title h2 {
+    margin-top: -10px;
+    margin-bottom: -10px;
+    font-size: 30px;
+}
+
+.title p {
+    margin-top: -10px;
+    margin-bottom: -100px;
+    text-align: end;
+    font-size: 20px;
+}
+
+.sub-title {
+    float: right;
+    margin: -10px;
+    padding: 10px 20px;
+    padding-left: 77px;
+    color: black;
+    font-size: 18px;
+    margin-left: 32px;
+}
+
+.sub-title ul {
+    list-style: none;
+}
+
+.sub-title li {
+    background-color: white;
+    border-radius: 0px;
+    border-top-left-radius: 15px;
+    margin: 3px;
+    padding: 10px 30px;
+    float: left;
+}
+
+.sub-title img {
+    border-radius: 100px;
+    float: left;
+    margin-left: -100px;
+}
+
+.sub-title li a {
+    color: black;
+}
+
+.mokuzi-top {
+    margin-top: 35px;
+    margin: -15px;
+}
+
+.mokuzi {
+    margin-bottom: -20px;
+    margin-top: 15px;
+    font-size: 30px;
+    padding-left: 10px;
+
+}
+
+.mokuzi-in {
+    font-size: 20px;
+    border-bottom: solid 2px;
+    padding-bottom: 40px;
+}
+
+.syumi-top {
+    border-bottom: solid 2px;
+    padding-bottom: 40px;
+}
+
+.syumi-in {
+    font-size: 23px;
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+
+.gengo {
+    margin-top: -30px;
+    font-size: 20px;
+    border-bottom: solid 2px;
+    padding-bottom: 0px;
+}
+
+
+.tutaetaikoto-top {
+    border-bottom: solid 2px;
+    padding-bottom: 40px;
+}
+
+.slack-name p {
+    margin-top: -25px;
+    font-size: 20px;
+    border-bottom: solid 2px;
+    padding-bottom: 40px;
+}
+
+.call-name p {
+    margin-top: -25px;
+    border-bottom: solid 2px;
+    padding-bottom: 40px;
+}
+
+.last-coment p {
+    margin-top: -25px;
+    font-size: 20px;
+    border-bottom: solid 2px;
+    padding-bottom: 40px;
+}
+
+.account {
+    margin-top: -20px;
+    margin-bottom: -2px;
+    padding: 20px;
+}
+
+.account-in {
+    display: inline-flex;
+    padding-top: 10px;
+}
+
+.account-in .twitter{
+    transition: background-color .5s;
+}
+
+.account-in .twitter:hover{
+    background-color: rgb(0,124,210);
+}
+
+.account-in .twitter-2{
+    transition: background-color .5s;
+}
+
+.account-in .twitter-2:hover{
+    background-color: rgb(0,124,210);
+}
+
+.twitter {
+    padding: 10px;
+    border-radius: 23px;
+    margin: 20px;
+    border: solid;
+}
+
+.twitter-2 {
+    padding: 10px;
+    border-radius: 23px;
+    margin: 20px;
+    border: solid;
+}
+
+.page_top_btn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-weight: bold;
+    padding: 0.7em;
+    text-align: center;
+    background: rgb(255, 0, 0);
+    color: #fff;
+    transition: 0.3s0;
+    border-radius: 25px;
+}
+
+
+.page_top_btn:hover {
+    background: rgb(255, 0, 0, 0.8);
+    color: rgb(255, 255, 255, 0.8);
+}
+
+.hobby-1 {
+    float: left;
+    margin-right: -1000px;
+}
+
+.account h1 {
+    margin-bottom: -30px;
+    margin-top: -3px;
+}
+
+#text-stroke {
+    -webkit-text-stroke: 1px #FFF;
+    text-stroke: 1px #FFF;
+    color:#202124;
+    font-size: 45px;
+}
+
